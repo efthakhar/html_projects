@@ -1,0 +1,155 @@
+.dish{
+
+    padding: 6rem 2rem;
+    
+    
+    
+    
+
+}
+
+.dish-nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.dish-nav__item{
+    font-size: 1.2rem;
+    font-weight: 900;
+    background-color: #fff;
+    color:black;
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    border-radius: 50px;
+    padding: 1.2rem 3.5rem;
+    margin: .5rem .5rem;
+}
+.dish-nav__item:hover,.dish-nav__item.active{
+    background-color: #FFCC00;
+    border: 1px solid #FFCC00;
+}
+
+
+.dish-items{
+    padding: 2rem 1rem;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    flex-wrap: wrap;
+}
+
+.dish-item{
+    padding: 1rem;
+
+    border: 1px solid rgba(128, 128, 128, 0.486);
+    border-radius: 30px;
+   
+    flex: 0 0 22%;
+    width: 22%;
+    margin: 2% .5%;
+    height: auto;
+    position: relative;
+
+    display: flex;
+    flex-direction: column;
+
+    
+}
+
+@media screen and (max-width: 1050px){
+    .dish-item{
+        flex: 0 0 30%;
+        width: 30%;
+        margin: 2% .5%;        
+    }
+}
+
+@media screen and (max-width: 750px){
+    .dish-item{
+        flex: 0 0 40%;
+        width: 40%;
+        margin: 2% 1.5%;        
+    }
+}
+@media screen and (max-width: 650px){
+    .dish-item{
+        flex: 0 0 90%;
+        width: 90%;
+        margin: 2% 1.5%;        
+    }
+}
+@media screen and (max-width: 450px){
+    .dish-item{
+        flex: 0 0 100%;
+        width: 100%;
+        margin: 2% .5%;        
+    }
+}
+
+
+
+
+.dish-item .dish-item__media{
+    position: relative;
+     
+}
+.dish-item .dish-item__media img{
+    display: block;
+    width:100%; 
+
+    object-fit: contain;
+    position: relative;
+    z-index: 2;
+    
+}
+.dish-item .dish-item__media::after{
+   
+    content: '';
+    position: absolute;
+    background-color: #FFCC00;
+    width:100%; 
+    height: 50%;
+    bottom:0%;
+    border-radius: 20px;
+    opacity: .2;
+    transition: all .4s;
+
+}
+
+
+
+.dish-item:hover .dish-item__media::after{
+    
+    height: 100%;
+    opacity: 1;
+
+}
+
+.price-box{
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.wishlist{
+  font-size: 3.5rem;
+  position: absolute;
+  top: 5%;
+  right:5%;
+  display: inline-block;
+  color:#FFCC00;
+  transition: all .5s;
+ 
+}
+.dish-item:hover .wishlist{
+    font-size: 4rem;
+    color:#ffffff;
+   
+  }
+
+.cart{
+    font-size: 3.5rem;
+    color:grey;
+   
+  }

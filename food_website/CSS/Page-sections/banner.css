@@ -1,0 +1,154 @@
+.banner{
+
+    padding: 3rem 0 5rem;
+
+    min-height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    overflow-x: hidden;
+}
+
+@media screen and (max-width:750px){
+    .banner{
+        flex-direction: column;
+    }
+}
+
+
+
+.banner .banner-description{
+    padding: 3rem;
+
+    flex: 0 0 50%;
+    width: 50%;
+
+    
+}
+
+.banner .banner-description>*{
+    margin-bottom: 3rem;
+    margin-top: 7vh;
+}
+
+@media (max-width:750px) {
+    .banner .banner-description{
+     flex: 0 0 100%;
+     width: 100%;
+     text-align: center;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+      
+    }
+
+
+    
+}
+@media (max-width:450px) {
+    .banner .banner-description{
+        padding: 1.2rem;
+      
+    }
+    .banner .banner-description>*{
+        margin-bottom: 1.5rem;
+    }
+    
+    
+}
+.banner-cta-box{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+@media screen and (max-width:950px){
+    .banner-cta-box{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}
+
+.banner .banner_heading{
+color:white;
+font-size: 7rem;
+z-index: 3;
+}
+
+@media (max-width:750px) {
+    .banner .banner_heading{
+      font-size: 5rem;
+      
+    }
+}
+
+
+.banner .banner-subheading {
+    color:#00A148;
+}
+.banner .description {
+    color:#ffffff;
+}
+
+.banner .banner_heading .high-light{
+    color:#FFCC00;
+}
+
+
+
+.banner-media{
+
+    flex: 0 0 40%;
+    width: 40%;
+    z-index: 6;
+}
+
+.banner-media img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.banner-side-media1{
+    position: absolute;
+    top:-20%;
+    left:35%;
+    z-index: 2;
+}
+
+@media (max-width:750px) {
+    
+.banner-media{
+
+    flex: 0 0 100%;
+    width: 100%;
+    z-index: 6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.banner-media img{
+
+    width: 75%;
+    height: auto;
+   
+}
+.banner-side-media1{
+    
+   
+    position: absolute;
+    top:-20%;
+    right:-1%;
+    z-index: 2;
+    transform: scale(.4);
+}
+
+}
+
+
+

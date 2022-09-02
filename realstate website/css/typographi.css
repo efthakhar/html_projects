@@ -1,0 +1,81 @@
+.icon {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.subtitle {
+  font-size: 1.6rem;
+}
+
+.heading-primary {
+  font-size: 4.8rem;
+  line-height: 1;
+}
+
+.heading-primary--black {
+  color: black;
+}
+
+@media screen and (max-width: 650px) {
+  .heading-primary--black {
+    font-size: 3rem;
+  }
+}
+
+.heading-primary--white {
+  color: white;
+}
+
+.heading-secondary {
+  font-size: 2.8rem;
+  line-height: 1;
+}
+
+@media screen and (max-width: 650px) {
+  .heading-secondary {
+    font-size: 2.5rem;
+  }
+}
+
+.heading-secondary--bold {
+  font-weight: 600;
+}
+
+.heading-secondary--thin {
+  font-weight: 400;
+}
+
+.sm-title-1 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  display: inline-block;
+}
+
+.sm-title-1--orange {
+  padding: 3px 1.5rem;
+  background-color: #FFEFEC;
+  color: #FF5A3C;
+  border-radius: 2.6rem;
+}
+
+.sm-title-1--white {
+  padding: 3px 1.5rem;
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 2.6rem;
+  -webkit-box-shadow: 1px 1px 5px #3f3b3b;
+          box-shadow: 1px 1px 5px #3f3b3b;
+}
+
+.description {
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.description--thick {
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.6;
+  color: grey;
+}
+/*# sourceMappingURL=typographi.css.map */

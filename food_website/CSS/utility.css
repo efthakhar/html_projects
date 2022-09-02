@@ -1,0 +1,23 @@
+.container{
+    max-width: 1160px;
+    margin:0 auto;
+}
+
+/* UTILITY margin  */
+.mb10{margin-bottom: 10px;}
+.mb20{margin-bottom: 20px;}
+.mb30{ margin-bottom: 30px;}
+
+/* Padding Utulity classs */
+.p0{
+    padding: 0;
+}
+
+
+/* text alignment utility class */
+.tc{text-align: center;}
+.tr{text-align: right;}
+.tl{text-align: left;}
+
+
+

@@ -1,0 +1,47 @@
+
+/* Button Compomnet */
+.btn{
+    padding: 1.5rem 3.2rem;
+    font-size: 1.6rem;
+    font-weight: 700;
+    border-radius: 30px;
+    display: inline-block;
+    transition: all .3s;
+    
+}
+
+.btn--blue{
+   color:white;
+   background-color: #1358f7;
+   border: 1px solid white;
+}
+.btn--blue-1{
+   color:white;
+   background-color: #1358f7;
+   border: 1px solid white;
+}
+.btn--blue-1:hover{
+   background-color:white;
+   color: #1244CC;
+   border: 1px solid #1358f7;
+}
+.btn--blue:hover{
+    background-color:white;
+    color: #1358f7;
+    border: 1px solid white;
+ }
+
+ .btn--white{
+    background-color:white;
+    color: #1244CC;
+    border: 1px solid #1358f7;
+ }
+ .btn--white:hover{
+    color:white;
+    background-color: #1358f7;
+    border: 1px solid white;
+    
+  }
+
+  /* PLay BTN */
+  

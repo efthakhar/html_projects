@@ -1,0 +1,101 @@
+.service-container{
+
+    padding: 12rem 0;
+
+    .service{
+
+        &-info{
+            padding: 0 0 3rem;
+
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+
+            text-align: center;
+        }
+
+        &-items{
+            padding: 1rem;
+
+            @media screen and(max-width:650px){
+                padding: 0rem;
+
+            }
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+
+
+            .service-item{
+
+                background-color: #fff;
+                box-shadow: 1px 1px 100px rgb(211, 208, 208);
+                padding: 2rem;
+                text-align: center;
+
+                flex: 0 0 30%;
+                width: 30%;
+                margin: 2% 1.5%;
+
+                @media screen and(max-width:950px){
+                    flex: 0 0 40%;
+                    width: 40%;
+                    margin: 2% 1.5%;
+                }
+                @media screen and(max-width:750px){
+                    flex: 0 0 60%;
+                    width: 60%;
+                    margin: 2% 1.5%;
+                }
+                @media screen and(max-width:650px){
+                    flex: 0 0 90%;
+                    width: 90%;
+                    margin: 2% 1.5%;
+                }
+
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+               
+
+
+                position: relative;
+
+
+                &>*{
+
+                    margin-bottom: 1.5rem;
+                }
+
+                &::after{
+
+                    position: absolute;
+                    content: '';
+                    width: 0%;
+                    height: 4px;
+                    bottom: 0;
+                    left:0;
+                    background-color: #FF5A3C;
+                    transition: all .6s;
+                }
+
+                &:hover::after{
+                    width: 100%;
+                }
+                &:hover .service-item__title,&:hover .service-item__btn{
+                    color:#FF5A3C;
+                }
+
+
+
+            }
+        }
+
+    }
+
+}

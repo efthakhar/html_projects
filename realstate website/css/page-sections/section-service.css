@@ -1,0 +1,124 @@
+.service-container {
+  padding: 12rem 0;
+}
+
+.service-container .service-info {
+  padding: 0 0 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.service-container .service-items {
+  padding: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media screen and (max-width: 650px) {
+  .service-container .service-items {
+    padding: 0rem;
+  }
+}
+
+.service-container .service-items .service-item {
+  background-color: #fff;
+  -webkit-box-shadow: 1px 1px 100px #d3d0d0;
+          box-shadow: 1px 1px 100px #d3d0d0;
+  padding: 2rem;
+  text-align: center;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 30%;
+          flex: 0 0 30%;
+  width: 30%;
+  margin: 2% 1.5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+@media screen and (max-width: 950px) {
+  .service-container .service-items .service-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 40%;
+            flex: 0 0 40%;
+    width: 40%;
+    margin: 2% 1.5%;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .service-container .service-items .service-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 60%;
+            flex: 0 0 60%;
+    width: 60%;
+    margin: 2% 1.5%;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  .service-container .service-items .service-item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 90%;
+            flex: 0 0 90%;
+    width: 90%;
+    margin: 2% 1.5%;
+  }
+}
+
+.service-container .service-items .service-item > * {
+  margin-bottom: 1.5rem;
+}
+
+.service-container .service-items .service-item::after {
+  position: absolute;
+  content: '';
+  width: 0%;
+  height: 4px;
+  bottom: 0;
+  left: 0;
+  background-color: #FF5A3C;
+  -webkit-transition: all .6s;
+  transition: all .6s;
+}
+
+.service-container .service-items .service-item:hover::after {
+  width: 100%;
+}
+
+.service-container .service-items .service-item:hover .service-item__title, .service-container .service-items .service-item:hover .service-item__btn {
+  color: #FF5A3C;
+}
+/*# sourceMappingURL=section-service.css.map */

@@ -1,0 +1,34 @@
+/*  Container Class */
+.container{
+    padding: 0 9.5rem;
+}
+@media screen and (max-width:900px){
+    .container{
+        padding: 0 7rem;
+    }
+}
+@media screen and (max-width:750px){
+    .container{
+        padding: 0 2.5rem;
+    }
+}
+@media screen and (max-width:650px){
+    .container{
+        padding: 0 1.5rem;
+    }
+}
+
+
+/* Margin-utility class */
+
+.my10{margin-top:10px; margin-bottom: 10px;}
+.my20{margin-top:20px; margin-bottom: 20px;}
+.my30{margin-top:30px; margin-bottom: 30px;}
+
+
+
+
+
+
+.txt-white{ color:white;}
+.txt-center{text-align: center;}

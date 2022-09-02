@@ -1,0 +1,51 @@
+.banner{
+    width: 100vw;
+    background-color: #1358f7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+   
+    
+}
+
+
+
+.banner-details{
+    flex: 0 0 50%;
+    width: 50%;
+
+}
+.banner-media{
+    
+ flex: 0 0 50%;
+ width: 50%;
+}
+
+.banner-media img{ 
+    display: block;
+    max-width: 100%;
+    height: auto;
+    
+ }
+
+@media screen and (max-width:950px){
+    .banner-details{
+        flex: 0 0 100%;
+        width: 100%;
+
+        padding-top: 6rem;
+    }
+    .banner-media{
+        
+     flex: 0 0 70%;
+     width: 70%;
+     display: flex;
+     justify-content: center;
+     flex-direction: column;
+     align-items: center;
+    }
+}
+

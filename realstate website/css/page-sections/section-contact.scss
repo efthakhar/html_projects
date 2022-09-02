@@ -1,0 +1,47 @@
+.contact{
+
+    
+    padding: 4rem 1rem;
+
+    &-info{
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    .contact-form-container{
+       
+
+        .contact-form{
+            padding: 1rem;
+        margin: 10vh auto;
+        max-width: 60rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        box-shadow: 1px 1px 50px rgb(180, 174, 174);
+
+        &>*:not(:last-child){
+
+            margin-bottom:1.6rem;
+            font-size: 2rem;
+            padding: .5rem;
+            color:grey;
+            outline: none;
+            border:1px solid grey;
+            resize: vertical;
+
+        }
+
+     }
+        
+
+        
+    }
+}
+
+
+

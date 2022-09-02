@@ -1,0 +1,19 @@
+@keyframes grow1{
+    from{
+        transform: scale(.3);
+    }
+    to{
+        transform: scale(62.3);
+        opacity: .3;
+    }
+}
+@keyframes grow2{
+    from{
+        transform: scale(1);
+        opacity: .5;
+    }
+    to{
+        transform: scale(1.2);
+        opacity: 1;
+    }
+}

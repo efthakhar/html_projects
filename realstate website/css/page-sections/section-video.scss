@@ -1,0 +1,50 @@
+.video{
+    width:100vw;
+    height: 50vh;
+    background-image:linear-gradient(to right ,rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0.158)), url('/img/img1.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    position: relative;
+
+    .play-btn{
+        width: 5rem;
+        height: 5rem;
+        background-color: #fff;
+        padding: 3.5rem;
+        position: relative;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        z-index: 2;
+        
+
+        &::after{
+            border-radius: 50%;
+            position: absolute;
+            content: '';
+            background-color: #fff;
+            width: 100%;
+            height: 100%;
+            top:0%;
+            left:0%;
+            transform: translate(-50%,-50%);
+            animation: grow1 1s infinite;
+            z-index: 1;
+            
+        }
+
+        .icon{
+            color: #FF5A3C;
+            font-size: 2.5rem;
+        }
+    }
+
+    
+}
+

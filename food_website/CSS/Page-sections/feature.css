@@ -1,0 +1,141 @@
+.feature{
+
+    
+
+}
+
+.feature-items{
+
+    background-color: #F7F2E2;
+    padding: 10rem 1rem;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+.feature-item{
+    border-radius: 10px;
+    box-shadow: 1px 1px 19px rgba(155, 150, 150, 0.76);
+    padding: 3.5rem;
+    flex: 0 0 30%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #fff;
+    overflow:hidden;
+}
+@media screen and (max-width:1150px){
+    .feature-item{
+       flex: 0 0 45%;
+       width: 45%;
+       margin: 2% 0%;
+    }
+}
+
+.feature-item-focus{
+  background-color: #01A149;
+  color:white;
+}
+.feature-item-focus .price-sm{
+    color: #ffffff;
+   
+  }
+  
+
+
+
+.feature-item .feature-item__info{
+    flex: 0 0 40%;
+
+    display: flex;
+    flex-direction: column;
+}
+.feature-item .feature-item__info>*{
+   margin-bottom: 1.5rem;
+}
+
+.feature-item .feature-item__img{
+    flex: 0 0 50%;
+    width: 50%;
+    position: relative;
+    
+ }
+
+
+ .feature-item__img img{
+     width: 100%;
+     height: 100%;
+     object-fit: contain;
+     position: relative;
+     display: block;
+    
+ }
+
+
+ @media screen and (max-width:750px){
+    .feature-item{
+        padding: 1.5rem;
+       flex: 0 0 95%;
+       width: 95%;
+       margin: 4% 0%;
+       
+    }
+    .feature-item .feature-item__info{
+        flex: 0 0 90%;
+        text-align: center;
+    }
+
+    
+    .feature-item .feature-item__img{
+        flex: 0 0 90%;
+        width: 90%;
+        order: -1;
+        margin-bottom:4.5rem ;
+    
+        
+     }
+
+}
+
+
+
+ .feature-item__img::before{
+    position: absolute;
+    content: '';
+   width: 110%;
+   height: 130%;
+   top:50%;
+   left:50%;
+   transform: translate(-50%,-50%);
+   background-color: #FFCC00;
+   border-radius: 50%;
+   transition: all .6s;
+   
+   
+}
+
+.feature-item-focus .feature-item__img::before{
+    background-color: #fff;
+}
+
+.feature-item:hover .feature-item__img::before{
+
+   
+   transform: translate(-50%,-50%) scale(1.2);
+   opacity: .4;
+  
+   
+}
+.feature-item:hover {
+box-shadow: 1px 1px 10px #FFCC00;
+     
+ }
+ 
+
+
+ 

@@ -1,0 +1,148 @@
+.testimonial{
+    background-color: #1358f7;
+    padding-top: 8rem;
+}
+
+.testimonial-items{
+     padding: 4rem 0;
+}
+.testimonial-item{
+    border-radius: 20px;
+    position: relative;
+    background-color: white;
+    padding: 2.6rem;
+    
+}
+@media screen and (max-width:600px){
+    .testimonial-item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+.testimonial-item img{
+    width: 10rem;
+    height: 10rem;
+    object-fit: contain;
+    border-radius: 50%;
+   
+}
+.testimonial-item h4{
+    color: #1358f7;
+    font-size: 2rem;
+    font-weight: 600;
+}
+.testimonial-item p{
+    
+    font-size: 1.8rem;
+    font-weight: 400;
+    
+}
+.glide__slides{
+    position: relative;
+   
+}
+.testimonial-items .controls{
+width: 100%;
+position: absolute;
+top:50%;
+display: flex;
+justify-content: space-between;
+
+}
+.testimonial-items .controls .left-con,.testimonial-items .controls .right-con{
+   
+    width: 2rem;
+    height: 4rem;
+    background-color: #1358f7;
+    border:none;
+    color:white;
+    font-weight: 900;
+    font-size: 3rem;
+    cursor: pointer;
+  
+}
+
+
+
+.blog{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+
+}
+.blog-items{
+    padding-top: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+}
+
+
+.blog-item{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px #1358f7;
+    padding: 2rem;
+
+    flex: 0 0 31%;
+    width: 31%;
+    margin: 1rem 1%;
+}
+
+@media screen and (max-width:800px){
+    .blog-item{
+        flex: 0 0 46%;
+        width: 46%;
+        margin: 1rem 1%;
+    }
+
+}
+@media screen and (max-width:600px){
+    .blog-item{
+        flex: 0 0 90%;
+        width: 90%;
+        margin: 1rem 1%;
+    }
+
+}
+@media screen and (max-width:400px){
+    .blog-item{
+        flex: 0 0 100%;
+        width: 100%;
+        margin: 1rem 1%;
+    }
+
+}
+.blog-item img{
+   width: 100%;
+   height: auto;
+}
+.blog-item .h-4{
+   line-height: 1;
+   padding: 1rem 0rem;
+   color: #1358f7;
+
+ }
+ .blog-item .btn{
+  padding: 1rem 1rem;
+  border-radius: 5px;
+ 
+  }
+
+  .footer{
+      background-color: #1358f7;
+      color:whitesmoke;
+      padding: 2rem 1rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+  .footer .p-small{
+    
+    color:whitesmoke;
+    text-align: center;
+
+}

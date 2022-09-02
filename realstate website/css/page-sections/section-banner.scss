@@ -1,0 +1,38 @@
+.banner-container{
+  
+    background-image:linear-gradient(to right, rgba(0, 0, 0, 0.432), rgba(0, 0, 0, 0.432)), url('img/1.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+    background-attachment: fixed;
+    z-index: -1;
+    
+}
+
+.banner{
+    
+    height: 110vh;
+    padding-top:7rem;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    // padding:0 20%;
+
+    // @media screen and(max-width:750px){
+    //         padding:0 5%;
+    // }
+    // @media screen and(max-width:450px){
+    //     padding:0 1%;
+    // }
+
+       
+}
+
+
+.banner>*{
+    margin-bottom: 2.5rem;
+}
